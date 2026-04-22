@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LSP/LSP.csproj" />
+  <Project Path="OpenClosedPrinciple/OpenClosedPrinciple.csproj" />
+  <Project Path="SolidPrincipal/SolidPrincipal.csproj" />
+  <Project Path="SRP/SRP.csproj" />
+</Solution>

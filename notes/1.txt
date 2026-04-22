@@ -1,0 +1,60 @@
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, understanding natural language, and perception. AI is transforming industries such as healthcare, finance, transportation, and entertainment by enabling automation, improving decision-making, and enhancing user experiences.ai_description.txt
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, understanding natural language, and perception. AI is transforming industries such as healthcare, finance, transportation, and entertainment by enabling automation, improving decision-making, and enhancing user experiences.ai_note.txt
+SoLID Principle 
+ its is used for object Oriented based principle used for reusability , clean code etc  
+S - single responsibility principle 
+o -open or close principle  
+L - liskov substitution principle
+I - interface segregation Principle
+D - Dependance inversion Principle 
+
+
+1) S : (single responce principle): one class works at a time (class will do one work at a time)
+
+___Normal code
+
+ class Student{
+    public void SaveStudend()
+    {
+ 
+    }
+
+   pubic void PrintStudent()
+    {
+      
+    }
+
+   }
+ 
+____Single responce code
+ 
+ Class Student{
+   public String Name
+   {geter,setter}
+  }
+
+ Class StudentRepository{
+   public void save(Student student){
+   
+    }
+  }
+
+2) o -open or close principle  : Class should be open for extension but close for modification (U can add new features without changing existing code ) 
+  --realtime eg : 
+
+3)   child class should replace A parent class with child class without breaking the  code  (if B is a child of A we should be able to use b everywhere A is used ) 
+
+// Bad Eg:
+class Bird{
+     public Virtual voild fly(){
+      print("Bird is Flying")
+    }
+  }
+
+class Ostrich:Bird{
+    Public Override voidfly(){
+      throw new Exception("He can't Fly")
+    }
+  }
+
+// Good Eg 

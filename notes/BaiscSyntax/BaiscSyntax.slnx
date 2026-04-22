@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BaiscSyntax/BaiscSyntax.csproj" />
+  <Project Path="operators/operators.csproj" Id="fdd39dec-e300-4bef-a64b-9afcc4be3f68" />
+  <Project Path="Variable declarartions/Variable declarartions.csproj" />
+</Solution>

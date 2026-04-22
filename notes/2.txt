@@ -1,0 +1,11 @@
+MVC : Model View Controller 
+  it is a desgin partttern used to develop scalable web application
+  it separates the application into three main components :
+    1) Model : it is a data layer that represents the data and business logic of the application (it is responsible for managing the data and rules of the application ) responsiblites are 
+       eg :  public class Customer{
+            public int Id {get; set;}
+            public String Name {get; set;}
+            public String Email {get; set;}
+       }
+    2) View : it is a UI layer that is responsible for User interface (Display data , forms etc.) (it is the user interface of the application )
+    3) Controller : it is the Brain of MVC it connects the model and the view . it handles user request and application  respon resive request send data to view (it receives user input from the view, processes it, and updates the model accordingly ) 

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Method/Method.csproj" />
+  <Project Path="Method_Overloading/Method_Overloading.csproj" />
+  <Project Path="Parameters/Parameters.csproj" />
+</Solution>

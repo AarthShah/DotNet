@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="ADO_Connectivity/ADO_Connectivity.csproj" />
+  <Project Path="classToclass_Communication/classToclass_Communication.csproj" />
+  <Project Path="classToobject_comminication/classToobject_comminication.csproj" />
+  <Project Path="Exception_Handeling/Exception_Handeling.csproj" />
+  <Project Path="InbuildPackages/InbuildPackages.csproj" />
+  <Project Path="ReusabilityCode/ReusabilityCode.csproj" />
+  <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="26553ef8-2559-4b11-8445-b9f49fdb7d62" />
+</Solution>
