@@ -1,0 +1,37 @@
+@ProductAPI_HostAddress = https://localhost:7170
+
+GET {{ProductAPI_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{ProductAPI_HostAddress}}/api/products/1
+Accept: application/json
+
+###
+
+POST {{ProductAPI_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Mouse",
+  "price": 650,
+  "category": "Electronics"
+}
+
+###
+
+PUT {{ProductAPI_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Mechanical Keyboard",
+  "price": 2500,
+  "category": "Electronics"
+}
+
+###
+
+DELETE {{ProductAPI_HostAddress}}/api/products/2
+Accept: application/json

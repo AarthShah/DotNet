@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="card shadow-sm border-0 page-card">
+    <div class="card-body p-4">
+        <h1 class="h3 mb-3">How This MVC Project Matches the Manual</h1>
+
+        <h2 class="h5">Experiment 6</h2>
+        <p>
+            The <strong>HomeController</strong> receives the request and returns views such as <strong>Index</strong> and
+            <strong>About</strong>. This demonstrates the MVC flow where controller and view work together.
+        </p>
+
+        <h2 class="h5">Experiment 7</h2>
+        <p>
+            The <strong>Student</strong> model uses data annotation attributes like <strong>Required</strong>,
+            <strong>StringLength</strong>, <strong>Range</strong>, and <strong>EmailAddress</strong> to validate user input.
+        </p>
+
+        <h2 class="h5">Experiment 8</h2>
+        <p>
+            The <strong>StudentsController</strong> performs create, read, update, and delete operations using
+            <strong>Entity Framework Core</strong> with a simple SQLite database.
+        </p>
+
+        <h2 class="h5">Experiment 10</h2>
+        <p class="mb-0">
+            The <strong>HomeController</strong> writes messages using <strong>ILogger</strong> and stores home page data
+            using <strong>IMemoryCache</strong> to reduce repeated work.
+        </p>
+    </div>
+</div>

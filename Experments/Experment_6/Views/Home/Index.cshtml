@@ -1,0 +1,41 @@
+@model HomePageViewModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="row g-4">
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 page-card">
+            <div class="card-body p-4">
+                <h1 class="display-6 fw-bold">ASP.NET Core MVC Experiment Project</h1>
+                <p class="lead mb-3">
+                    This project combines the simple concepts required for Experiment 6, 7, 8, and 10.
+                </p>
+                <ul class="mb-4">
+                    <li>Experiment 6: Basic MVC structure with controller and view</li>
+                    <li>Experiment 7: Form validation using data annotations</li>
+                    <li>Experiment 8: CRUD operations using EF Core and SQLite</li>
+                    <li>Experiment 10: Logging and in-memory caching</li>
+                </ul>
+                <a asp-controller="Students" asp-action="Index" class="btn btn-primary me-2">Open Student CRUD</a>
+                <a asp-controller="Home" asp-action="About" class="btn btn-outline-secondary">Read Explanation</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 info-card mb-4">
+            <div class="card-body">
+                <h2 class="h5">Caching Demo</h2>
+                <p class="mb-2">@Model.CachedMessage</p>
+                <p class="mb-0 text-muted">Generated at: @Model.GeneratedAt.ToString("dd MMM yyyy hh:mm:ss tt")</p>
+            </div>
+        </div>
+        <div class="card shadow-sm border-0 info-card">
+            <div class="card-body">
+                <h2 class="h5">Database Demo</h2>
+                <p class="mb-0">Current students in database: <strong>@Model.StudentCount</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
